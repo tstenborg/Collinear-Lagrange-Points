@@ -8,7 +8,7 @@ ForCLaP (Fortran Collinear Lagrange Points Calculator) is a Fortran command line
 
 ForCLaP assumes a traditional three-body system with a large, central primary (m<sub>1</sub>), a smaller secondary (m<sub>2</sub>) and an infinitesimal tertiary mass (m<sub>3</sub>). ForCLaP accepts a user-input value for the m<sub>1</sub>/m<sub>2</sub> mass ratio of the system. Use of a mass ratio within the Routh value limit, is enforced however.
 
-ForCLaP also accepts a user-input value for a ratio of solar radiation pressure to gravitational force experienced by m<sub>3</sub>, &beta;. This allows simulation of a luminous primary such as the Sun, but ForCLaP can just as easily be used for simulation of a non-luminous primary, such as planet, with an input ratio, &beta;, of zero.
+ForCLaP also accepts a user-input value for a ratio of solar radiation pressure to gravitational force experienced by m<sub>3</sub>, <i>&beta;</i>. This allows simulation of a luminous primary such as the Sun, but ForCLaP can just as easily be used for simulation of a non-luminous primary, such as planet, with an input ratio, <i>&beta;</i>, of zero.
 
 Collinear Lagrange point solution calculation is done with a Newton-Raphson algorithm. The program therefore inherits limitations of that algorithm. The algorithm can suffer runaway solution divergence, for example, but ForCLaP explicitly flags this and provides graceful algorithm termination. For algorithm convergence, iteration continues until the solution and the Newton derivative are both stable to four significant figures.
 
