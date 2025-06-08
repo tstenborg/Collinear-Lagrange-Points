@@ -18,4 +18,4 @@ Program source code requires compilation on the target system with a Fortran com
 
 ForCLaP has been tested with the GNU Fortran (gfortran) compiler, version 15.1.0.
 
-Reference: Stenborg, TN 2008, "[Collinear Lagrange Point Solutions in the Circular Restricted Three-Body Problem with Radiation Pressure using Fortran](https://aspbooks.org/custom/publications/paper/394-0734.html)", in RW Argyle, PS Bunclark & JR Lewis (eds), Astronomical Data Analysis Software and Systems XVII, Astronomical Society of the Pacific Conference Series, vol 394, pp. 734-737.
+Reference: Stenborg, TN 2008, "[Collinear Lagrange Point Solutions in the Circular Restricted Three-Body Problem with Radiation Pressure using Fortran](https://aspbooks.org/custom/publications/paper/394-0734.html)", in RW Argyle, PS Bunclark & JR Lewis (eds), Astronomical Data Analysis Software and Systems XVII, Astronomical Society of the Pacific Conference Series, vol 394, pp. 734&ndash;737.
