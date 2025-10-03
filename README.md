@@ -14,21 +14,23 @@ Collinear Lagrange point solution calculation is done with a Newton-Raphson algo
 
 ### Locations of the Collinear Lagrange Points in the Circular Restricted Three-Body Problem with Radiation Pressure
 
-#### L<sub>1</sub>
+Formulas for the locations of the collinear Lagrange points <i>L</i><sub>1</sub>, <i>L</i><sub>2</sub> and <i>L</i><sub>3</sub> are given below. Symbol definitions and explanatory theory are given in Stenborg (2008), below.
+
+#### <i>L</i><sub>1</sub>
 
 $$\begin{eqnarray}
 f(r_2) &=& \frac{r_2^5 - 3r_2^4 + 3r_2^3 - \beta r_2^2}{-r_2^5 + 2r_2^4 - r_2^3 + r_2^2 - 2r_2 + 1} - \frac{m_2}{m_1}\\
 f'(r_2) &=& \frac{-r_2^8 + 4r_2^7 - 3\beta r_2^6 - (7 - 2\beta)2r_2^5 + (26 - \beta)r_2^4 - 24r_2^3 + (9 - 2\beta)r_2^2 - 2\beta r_2}{r_2^{10} - 4r_2^9 + 6r_2^8 - 6r_2^7 + 9r_2^6 - 12r_2^5 + 9r_2^4 - 6r_2^3 + 6r_2^2 - 4r_2 + 1}\nonumber \\
 \end{eqnarray}$$
 
-#### L<sub>2</sub>
+#### <i>L</i><sub>2</sub>
 
 $$\begin{eqnarray}
 f(r_2) &=& \frac{r_2^5 + 3r_2^4 + 3r_2^3 + \beta r_2^2}{-r_2^5 - 2r_2^4 - r_2^3 + r_2^2 + 2r_2 + 1} - \frac{m_2}{m_1}\\
 f'(r_2) &=& \frac{r_2^8 + 4r_2^7 + (6 + 3\beta)r_2^6 + (14 + 4\beta)r_2^5 + (26 + \beta)r_2^4 + 24r_2^3 + (9 + 2\beta)r_2^2 + 2\beta r_2}{r_2^{10} + 4r_2^9 + 6r_2^8 + 2r_2^7 - 7r_2^6 - 12r_2^5 - 7r_2^4 + 2r_2^3 + 6r_2^2 + 4r_2 + 1}\nonumber \\
 \end{eqnarray}$$
 
-#### L<sub>3</sub>
+#### <i>L</i><sub>3</sub>
 
 $$\begin{eqnarray}
 f(r_1) &=& \frac{-r_1^5 - 2r_1^4 - r_1^3 + (1 - \beta)r_1^2 + (1 - \beta)2r_1 - \beta + 1}{r_1^5 + 3r_1^4 - 3r_1^3} - \frac{m_2}{m_1}\\
@@ -52,3 +54,4 @@ ForCLaP has been tested with the GNU Fortran (gfortran) compiler, version 15.1.0
 ### Reference
 
 Stenborg, TN 2008, "[Collinear Lagrange Point Solutions in the Circular Restricted Three-Body Problem with Radiation Pressure using Fortran](https://aspbooks.org/custom/publications/paper/394-0734.html)", in RW Argyle, PS Bunclark & JR Lewis (eds), Astronomical Data Analysis Software and Systems XVII, Astronomical Society of the Pacific Conference Series, vol 394, pp. 734&ndash;737.
+
